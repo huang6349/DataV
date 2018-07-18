@@ -7,7 +7,7 @@ import fetch from 'dva/fetch';
  * @param  {object} [options] The options we want to pass to "fetch"
  * @return {object}           An object containing either "data" or "err"
  */
-export default function request(url, options) {
+export default function request(url, options = {}) {
   /** 设置请求头信息 */
   options.headers = options.headers || {};
   options.headers['Content-Type'] = 'application/json;charset=UTF-8';
