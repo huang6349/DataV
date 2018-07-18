@@ -9526,6 +9526,12 @@ umi-plugin-dva@^0.7.1:
     path-is-root "^0.1.0"
     path-to-regexp "^1.7.0"
 
+umi-plugin-routes@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/umi-plugin-routes/-/umi-plugin-routes-0.1.5.tgz#f4eea4f83d21dc0bc748c466ab5d74fe18ed7c77"
+  dependencies:
+    is-plain-object "^2.0.4"
+
 umi-test@^0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/umi-test/-/umi-test-0.5.5.tgz#125f3850113651ed1dd85c00a5dca642545b8bcf"

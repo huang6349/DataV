@@ -1,6 +1,15 @@
 export default {
   plugins: [
-    'umi-plugin-dva', // 整合DVA
+    /** 路由过滤 */
+    ['umi-plugin-routes', {
+      exclude: [
+        '/components/',
+        '/models/',
+      ],
+    }],
+    /** 整合DVA */
+    'umi-plugin-dva',
   ],
-  hashHistory: true, // 切换 history 方式为 hash
+  /** 切换 history 方式为 hash */
+  hashHistory: true,
 }
