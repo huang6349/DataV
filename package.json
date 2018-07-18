@@ -7,10 +7,12 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "lodash": "^4.17.10",
     "normalize.css": "^8.0.0",
     "prop-types": "^15.6.2",
     "react-custom-scrollbars": "^4.2.1",
     "react-grid-layout": "^0.16.6",
+    "react-sizeme": "^2.5.2",
     "umi": "^1.0.0",
     "umi-plugin-dva": "^0.7.1"
   },
