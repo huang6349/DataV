@@ -1,13 +1,16 @@
 import * as React from 'react';
+import { connect } from 'dva';
+import {
+  DataVLayout,
+} from '../../components';
 
-import styles from './index.css';
-
-function ExamplePage() {
+function ExamplePage({ example }) {
+  const { layouts } = example;
   return (
-    <div className={styles['layout']}>
-      <h1>Example Page</h1>
-    </div>
+    <DataVLayout layouts={layouts} isDesign={true} />
   );
 }
 
-export default ExamplePage;
+export default connect(function (state) {
+  return { example: state['example'] };
+})(ExamplePage);
