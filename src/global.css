@@ -1,4 +1,6 @@
 @import url( '../node_modules/normalize.css/normalize.css');
+@import url( '../node_modules/react-grid-layout/css/styles.css');
+@import url( '../node_modules/react-resizable/css/styles.css');
 
 :global(#root) {
   position: relative;
